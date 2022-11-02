@@ -1,0 +1,15 @@
+# ====== server port configuration ====== #
+server:
+  port: 8888
+
+# ====== git repo configuration ====== #
+spring:
+  application:
+    name: zawya-config-files
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WhiteSicada/zawya-config-files.git
+          username: whitesicada
+          password: kun123456789+
